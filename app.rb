@@ -1,21 +1,21 @@
 # PROJECT EULER PROBLEM 6: DIFFERENCE BETWEEN SQUARE OF THE SUM AND SUM OF THE SQUARES FOR NUMBERS 1-100
-# arr1 = []
-# for i in 0..100
-#   arr1.push(i**2)
-# end
-# sum1 = arr1.reduce(0, :+)
-# puts sum1
-#
-# arr2 = []
-# for j in 0..100
-#   arr2.push(j)
-# end
-# sum2 = arr2.reduce(0, :+)
-# ans = sum2**2
-# puts ans
-#
-# result = ans - sum1
-# puts result
+arr1 = []
+for i in 0..100
+  arr1.push(i**2)
+end
+sum1 = arr1.reduce(0, :+)
+puts sum1
+
+arr2 = []
+for j in 0..100
+  arr2.push(j)
+end
+sum2 = arr2.reduce(0, :+)
+ans = sum2**2
+puts ans
+
+result = ans - sum1
+puts result
 
 
 # PROJECT EULER PROBLEM 5: SMALLEST +VE NUMBER DIVISIBLE BY ALL NUMBERS 1-20
